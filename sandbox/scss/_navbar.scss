@@ -38,6 +38,7 @@
       height: 60px;
       width: auto;
    }
+
   // line-height: $drawer-navbar-height;
   // display: inline-block;
   // padding-top: 0;
@@ -66,7 +67,8 @@
      }
   }
   li {
-     padding: 1rem;
+     padding: 1rem 1.4rem;
+   //   border: 1px solid blue;
  }
 }
 
@@ -122,14 +124,14 @@
    //  text-align: center;
   }
 
-  /*! dropdown */
-  .drawer-navbar .drawer-dropdown-menu {
-    position: absolute;
-    width: $drawer-navbar-dropdown-width;
-    border: 1px solid $drawer-borderColor;
-  }
+  // /*! dropdown */
+  // .drawer-navbar .drawer-dropdown-menu {
+  //   position: absolute;
+  //   width: $drawer-navbar-dropdown-width;
+  //   border: 1px solid $drawer-borderColor;
+  // }
 
-  .drawer-navbar .drawer-dropdown-menu-item {
-    padding-left: $drawer-gutter-x;
-  }
+//   .drawer-navbar .drawer-dropdown-menu-item {
+//     padding-left: $drawer-gutter-x;
+//   }
 }

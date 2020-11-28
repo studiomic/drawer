@@ -244,7 +244,7 @@
 }
 
 .drawer-navbar .drawer-menu li {
-  padding: 1rem 0;
+  padding: 1rem 1.4rem;
 }
 
 @media (min-width: 64em) {
@@ -280,15 +280,6 @@
   .drawer-navbar .drawer-menu {
     padding: 0;
   }
-  /*! dropdown */
-  .drawer-navbar .drawer-dropdown-menu {
-    position: absolute;
-    width: 16.25rem;
-    border: 1px solid #ddd;
-  }
-  .drawer-navbar .drawer-dropdown-menu-item {
-    padding-left: 0.75rem;
-  }
 }
 
 /*!------------------------------------*    Container
@@ -316,6 +307,7 @@ html, body {
   box-sizing: border-box;
   font-size: 16px;
   background: #fff;
+  background: #222;
 }
 
 header {
@@ -346,14 +338,22 @@ header h1 {
   }
   .drawer-menu {
     display: flex;
+    margin: 0 auto;
     flex-direction: row;
-    background: #ddd;
     justify-content: center;
   }
-  .drawer-brand img {
+  .drawer-brand {
     display: none;
+    margin-left: 70px;
   }
   .drawer-navbar-header {
     height: 0;
   }
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }

@@ -43,16 +43,27 @@
    		height: auto;
    	}
    }
+   // .drawer-nav {
+   //    background: #000;
+   // }
    .drawer-menu {
       display: flex;
+      // width: 480px;
+      margin: 0 auto;
       flex-direction: row;
-      background: #ddd;
-      justify-content: center;      
+      // background: #ddd;
+      // justify-content: space-between;
+      justify-content: center;
    }
    .drawer-brand {
-      img {
-         display: none;
-      }
+      display: none;
+      // display: block;
+      // border: 1px solid #ccc;
+      margin-left: 70px;
+
+      // img {
+      //    display: none;
+      // }
    }
    .drawer-navbar-header {
      height: 0;
