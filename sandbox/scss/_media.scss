@@ -48,18 +48,23 @@
    // }
    .drawer-menu {
       display: flex;
-      // width: 480px;
-      margin: 0 auto;
       flex-direction: row;
-      // background: #ddd;
-      // justify-content: space-between;
       justify-content: center;
+      margin: 0 auto;
+      // margin-left: 200px;
+
+      // width: 480px;
+      // margin: 0 auto 0 70px;
+         // background: #ddd;
+      // justify-content: space-between;
    }
    .drawer-brand {
       display: none;
+      margin-left: 160px;
       // display: block;
+      // opacity: 0;
       // border: 1px solid #ccc;
-      margin-left: 70px;
+      // overflow: hidden;
 
       // img {
       //    display: none;

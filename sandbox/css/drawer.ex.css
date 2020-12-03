@@ -306,8 +306,8 @@ html, body {
   padding: 0;
   box-sizing: border-box;
   font-size: 16px;
-  background: #fff;
   background: #222;
+  background: #fff;
 }
 
 header {
@@ -338,13 +338,13 @@ header h1 {
   }
   .drawer-menu {
     display: flex;
-    margin: 0 auto;
     flex-direction: row;
     justify-content: center;
+    margin: 0 auto;
   }
   .drawer-brand {
     display: none;
-    margin-left: 70px;
+    margin-left: 160px;
   }
   .drawer-navbar-header {
     height: 0;

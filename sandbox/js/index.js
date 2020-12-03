@@ -2,7 +2,7 @@
 $(function() {
   var nav = $('.drawer-navbar');
   var logo = $('.drawer-brand');
-
+  var navul = $('.drawer-menu');
 
 
 	//表示位置
@@ -19,9 +19,9 @@ $(function() {
 				showFlag = true;
 				nav
 					.addClass('fixed')
-
 					.stop().animate({'top' : '0px'}, 200, function(){
 					logo.css('display', 'block');
+					navul.css('margin-left', '200px');
 					});
 				// );
 			}
@@ -31,6 +31,7 @@ $(function() {
 				nav.stop().animate({'top' : -navHeight+'px'}, 200, function(){
 					nav.removeClass('fixed');
 					logo.css('display', 'none');
+					navul.css('margin-left', '0px');
 				});
 			}
 		}
